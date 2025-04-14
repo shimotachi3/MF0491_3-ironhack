@@ -2,7 +2,9 @@
     box-sizing: border-box;
 }
 
-body {}
+body {
+    font-family: verdana;
+}
 
 a {
     text-decoration: none;
@@ -11,12 +13,30 @@ a {
 
 div {
     width: fit-content;
+    font-size: 1.2rem;
+    padding: 15px;
+    border-left: solid;
+    border-left-width: 8px;
+    margin: 30px;
 }
 
-.danger {}
+.danger {
+    background-color: #ffdddd;
+    border-left-color: #f44336;
+}
 
-.success {}
+.success {
+    background-color: #ddffdd;
+    border-left-color: #04AA6D;
+}
 
-.info {}
+.info {
+    background-color: #e7f3fe;
+    border-left-color: #2196F3;
+}
 
-.warning {}
+.warning {
+    position:relative;
+    background-color: #ffffcc;
+    border-left-color: #ffeb3b;
+}
